@@ -1,0 +1,29 @@
+
+---Popular---
+git status 			Check status
+
+git add <file.xyz>		add to Staging Area
+git restore <file.xyz>		remove from Staging Area
+
+git commit -m "note"
+git commit --amend -m "amend note"
+git reset --soft HEAD		uncommit, delete prev-commit
+git reset HEAD			uncommit and unstaged
+git reset --hard HEAD		reset everything to previous
+
+
+git push origin <branch name>
+
+git diff <code1> <code2>
+
+
+
+-----Initialize-----
+git version
+git config --global user.name "HoangLe"
+git config --global user.email "hoanglouis.box@gmail.com"
+git config --list
+
+git init
+git remote add origin <link GitHub>
+git clone <link GitHub>
